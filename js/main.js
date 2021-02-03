@@ -40,7 +40,8 @@ function getInputValue(product) {
     return productCount;
 }
 
-document.getElementById('booked').addEventListener('click', function(){
+
+document.getElementById('booked').addEventListener('click', function () {
     document.getElementById('booking-section').style.display = "none";
     document.getElementById('purchase-note').style.display = "block";
     document.getElementsByTagName('body').style.backgroundSize = "cover";

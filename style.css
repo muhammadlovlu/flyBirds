@@ -13,7 +13,6 @@ body{
     background-attachment: scroll;
     background-size: cover;
 }
-
 nav{
     height: 50px;
     width: 100%;
@@ -35,8 +34,10 @@ nav ul li a{
     text-transform: uppercase;
 }
 nav ul li a:hover, a.active{
+    color: white;
     background-color: #3352F2;
     border-radius: 5px;
+    text-decoration: none;
 }
 .main-content{
     display: grid;
@@ -105,7 +106,6 @@ nav ul li a:hover, a.active{
     font-weight: 400;
     margin-bottom: 25px;
 }
-
 .btn-style{
     display: block;
     width: 100%;
@@ -122,7 +122,6 @@ nav ul li a:hover, a.active{
 }
 
 /* Extra css added */
-
 div #first-class-total {
     margin-left: 80px;
     color:red;
@@ -130,8 +129,6 @@ div #first-class-total {
 #return {
     margin-top:0px;
 }
-
-
 #purchase-note{
     display: none;
     position: relative;
