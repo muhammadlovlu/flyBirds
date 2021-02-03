@@ -1,5 +1,3 @@
-
-
 function handleTicketChange(product, isIncrease) {
     const productCount = getInputValue(product);
     let productNewCount = productCount;
@@ -17,7 +15,6 @@ function handleTicketChange(product, isIncrease) {
     if (product == 'class-A') {
         total = productNewCount * 150;
     }
-    // document.getElementById(product + '-total').innerText =  total;
     calculateTotalPrice();
 }
 
@@ -43,3 +40,8 @@ function getInputValue(product) {
     return productCount;
 }
 
+document.getElementById('booked').addEventListener('click', function(){
+    document.getElementById('booking-section').style.display = "none";
+    document.getElementById('purchase-note').style.display = "block";
+    document.getElementsByTagName('body').style.backgroundSize = "cover";
+})

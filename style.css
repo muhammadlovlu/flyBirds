@@ -130,3 +130,14 @@ div #first-class-total {
 #return {
     margin-top:0px;
 }
+
+
+#purchase-note{
+    display: none;
+    position: relative;
+    top: 320px;
+    left: 450px;
+}
+#purchase-note h2 {
+    font-family: 'Bebas Neue', cursive;
+}
