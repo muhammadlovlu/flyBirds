@@ -17,7 +17,7 @@ function handleTicketChange(product, isIncrease) {
     if (product == 'class-A') {
         total = productNewCount * 150;
     }
-    document.getElementById(product + '-total').innerText =  total;
+    // document.getElementById(product + '-total').innerText =  total;
     calculateTotalPrice();
 }
 
